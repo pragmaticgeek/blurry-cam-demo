@@ -78,8 +78,8 @@ const BlurryCamDemo = () => {
   return (
     <div>
       <Webcam ref={webcamRef} width="640" height="480" />
-      <canvas ref={maskCanvasRef} width="680" height="360" />
-      <canvas ref={outputCanvasRef} width="680" height="360" />
+      <canvas ref={maskCanvasRef} width="640" height="480" />
+      <canvas ref={outputCanvasRef} width="640" height="480" />
     </div>
   );
 };
